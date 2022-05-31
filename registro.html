@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/CSS/stylrRI.css">
+    <link rel="icon" type="Image/png" href="assets/multimedia/Ilustración.png ">
+    <script src="assets/JavaScript/registro.js"></script>
+    <title>Registro Sesion</title>
+</head>
+<body>
+      <div class="BoxIR">
+      <div></div>
+        
+        <img src="assets/multimedia/Ilustración.png" class="logo">
+        <h1>Registro: </h1><br>
+        <!-- Correo -->
+        <label  for="txtCorreoR">Correo: </label>
+        <input id="txtCorreoR" type="email" placeholder="Correo electronico">
+        <!-- UserName -->
+        <label  for="txtUserR">Usuario: </label>
+        <input id="txtUserR" type="text" placeholder="Usuario"> 
+        <!-- Password -->
+        <label  for="txtPassR">Contraseña: </label>
+        <input id="txtPassR" type="password" placeholder="Contraseña"> 
+        <label  for="txtPassRC">Confirmar contraseña: </label>
+        <!-- Password Confirm-->
+        <input id="txtPassRC" type="password" placeholder="Contraseña"> 
+        <label id="validacionRegistro" ></label><br>
+        <!-- submit -->
+        <input type="submit" onclick="Registrar()" value="Registrarse"></input> 
+        <!-- enlace para irse a iniciar sesion -->
+        <a href="inicioSesion.html">¿Ya tienes una cuenta?</a>
+      </div>
+
+</body>
+</html>
